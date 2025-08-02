@@ -1,0 +1,19 @@
+.placeholder{
+  display:flex;
+  align-items: center;
+  
+}
+.list {
+  border: 1px solid #ccc;      /* light gray border */
+  padding: 16px;               /* spacing inside the border */
+         /* spacing between products */
+  border-radius: 8px;          /* optional: rounded corners */
+  background-color: #f9f9f9;   /* optional: light background */
+}
+
+.products{
+  margin:20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px; /* space between items */
+}
